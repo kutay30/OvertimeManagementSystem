@@ -1,23 +1,5 @@
 ﻿namespace Domain.Entities;
-public enum RequestType
-{
-    Assigned,
-    SelfRequested,
-    Emergency
-}
 
-public enum DateType
-{
-    RegularDay,
-    PublicHoliday
-}
-
-public enum RequestStatus
-{
-    Pending,
-    Approved,
-    Rejected
-}
 
 public class OvertimeRequest
 {
