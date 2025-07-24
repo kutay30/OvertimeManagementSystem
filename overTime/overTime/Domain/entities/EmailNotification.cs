@@ -1,11 +1,5 @@
 ﻿namespace Domain.Entities;
-public enum EmailType
-{
-    RequestCreated,
-    Approved,
-    Rejected,
-    ActionRequired
-}
+
 
 public class EmailNotification
 {
